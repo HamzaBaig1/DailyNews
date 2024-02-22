@@ -31,7 +31,7 @@ function News(props) {
     }
 
     useEffect(() => {
-        document.title=`${props.category} - NewsMonkey`
+        document.title=`${props.category} - DailyNews`
         updateNews()
         // eslint-disable-next-line
     }, [])
